@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta charset="UTF-8">
+    <title>Computer Science Courses</title>
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/bootswatch-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/css.css">
+    <link rel="stylesheet" href="js/csFramework/style/csFramework.css">
+    <link rel="stylesheet" href="js/csMenu/style/csMenu.css">
+</head>
+<body class="container-fluid">
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/angular/angular.min.js"></script>
+
+<!--app-->
+<script src="js/csMenu/csMenu.module.js"></script>
+<script src="js/csFramework/csFramework.module.js"></script>
+
+<script src="js/csMenu/csMenu.directive.js"></script>
+<script src="js/csMenu/csMenuItem.directive.js"></script>
+<script src="js/csDashboard/csDashboard.module.js"></script>
+<script src="js/csFramework/csFramework.directive.js"></script>
+
+
+<script src="app/app.module.js"></script>
+
+
+<cs-framework title="Study Computer Science"
+              sub-title="This might be exciting!"
+              icon-file="js/csFramework/images/computer.png">
+
+    <cs-menu>
+        <cs-menu-item label="Courses" icon="fa-graduation-cap" route="courses"></cs-menu-item>
+        <cs-menu-item label="Locations" icon="fa-location-arrow" route="locations"></cs-menu-item>
+        <cs-menu-item label="Recommended Books" icon="fa-book" route="recommended_books"></cs-menu-item>
+    </cs-menu>
+
+</cs-framework>
+</body>
+</html>
+
+

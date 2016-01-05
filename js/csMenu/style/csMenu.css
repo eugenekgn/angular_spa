@@ -1,0 +1,47 @@
+.cs-menu-area {
+  position: relative;
+  background-color: #333333;
+  color: #cccccc;
+  padding-left: 0;
+  width: 200px;
+  min-height: 100vh;
+  padding-top: 30px;
+}
+.cs-menu-area ul {
+  padding-left: 0;
+}
+.cs-menu-area .btn:hover {
+  color: #cccccc;
+}
+.cs-menu-area .cs-menu {
+  list-style-type: none;
+  vertical-align: top;
+}
+.cs-menu-area .cs-menu ul {
+  display: inline;
+  list-style-type: none;
+}
+.cs-menu-area .cs-menu li {
+  line-height: 3em;
+  cursor: pointer;
+}
+.cs-menu-area .cs-menu .cs-selectable-item div {
+  display: inline-block;
+  width: 90%;
+  padding-left: 16px;
+}
+.cs-menu-area .cs-menu .cs-selectable-item .cs-menu-icon {
+  margin-right: 10px;
+}
+.cs-menu-area .cs-menu .cs-selectable-item .cs-menu-active-indicator {
+  float: right;
+  color: #dddddd;
+  margin-right: 0;
+  margin-top: 8px;
+}
+.cs-menu-area .cs-menu .cs-selectable-item:hover {
+  background-color: #555555;
+}
+.cs-menu-area .cs-menu .cs-no-select {
+  user-select: none;
+}

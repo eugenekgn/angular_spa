@@ -1,0 +1,42 @@
+.cs-title-bar {
+  background-color: #ffffff;
+  padding: 0 20px;
+  border-bottom: 2px solid #000000;
+}
+.cs-title-bar div.row .cs-logo-area {
+  text-align: center;
+}
+.cs-title-bar div.row .cs-logo-area .cs-icon {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 8px;
+  vertical-align: top;
+}
+.cs-title-bar div.row .cs-logo-area .cs-title-area {
+  display: inline-block;
+  text-align: inherit;
+}
+.cs-title-bar div.row .cs-logo-area .cs-title-area .cs-logo-title {
+  color: #111;
+  margin-top: 6px;
+  font-size: 22px;
+}
+.cs-title-bar div.row .cs-logo-area .cs-title-area .cs-logo-subtitle {
+  font-size: 13px;
+  margin-top: -30px;
+}
+.cs-title-bar div.row .cs-right-side-controls {
+  line-height: 60px;
+}
+.cs-title-bar div.row .cs-right-side-controls > div {
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .cs-title-bar div.row .cs-right-side-controls > div {
+    text-align: right;
+  }
+  .cs-title-bar div.row .cs-logo-area {
+    text-align: left;
+  }
+}

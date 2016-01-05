@@ -1,0 +1,23 @@
+<div class="cs-title-bar">
+    <div class="row">
+
+        <div class="cs-logo-area col-sm-6">
+            <img class="cs-icon" ng-src="{{iconFile}}">
+            <div class="cs-title-area">
+                <p class="cs-logo-title">{{title}}</p>
+                <p class="cs-logo-subtitle">{{subTitle}}</p>
+            </div>
+        </div>
+        <div class="cs-right-side-controls col-sm-6">
+            <div>
+                <button class="btn btn-primary">Button 1</button>
+                <button class="btn btn-success">Button 2</button>
+                <button class="btn btn-warning">Button 3</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div ng-transclude=""></div>
+<div style="position: absolute; left: 220px; top: 200px; color:red; font-size:44px">
+    {{csFrameworkController.routeString}}
+</div>

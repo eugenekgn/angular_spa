@@ -1,0 +1,60 @@
+.cs-menu-area {
+  position: relative;
+  background-color: #333333;
+  color: #cccccc;
+  padding-left: 0;
+  width: 200px;
+  min-height: 100vh;
+  padding-top: 30px;
+
+  ul {
+    padding-left: 0;
+  }
+  .btn:hover {
+    color: #cccccc;
+  }
+
+  .cs-menu {
+    list-style-type: none;
+    vertical-align: top;;
+
+    ul {
+      display: inline;
+      list-style-type: none;
+    }
+
+    li {
+      line-height: 3em;
+      cursor: pointer;
+    }
+
+    .cs-selectable-item {
+
+      div {
+        display: inline-block;
+        width: 90%;
+        padding-left: 16px;
+      }
+
+      .cs-menu-icon {
+        margin-right: 10px;
+      }
+
+      .cs-menu-active-indicator {
+        float: right;
+        color: #dddddd;
+        margin-right: 0;
+        margin-top: 8px;
+      }
+
+      &:hover {
+        background-color: #555555
+      }
+    }
+
+    .cs-no-select {
+      user-select: none;
+    }
+  }
+}
+
